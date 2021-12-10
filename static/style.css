@@ -7,6 +7,12 @@ html {
     box-sizing: inherit;
 }
 
+button {
+    padding: 10px 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
 .content-container {
     height: 98vh;
     width: 70vw;
@@ -30,12 +36,13 @@ html {
     flex: 0 0 auto;
 }
 
-.square-onhover {
-    background-color: black;
+.btn-container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#reset {
-    padding: 10px 50px;
-    font-weight: bold;
-    border-radius: 10px;
+#black {
+    margin-right: auto;
+    margin-left: 10px;
 }
